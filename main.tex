@@ -9,6 +9,7 @@
 \usepackage{latexsym}
 \usepackage[backend=biber,
 minnames=5,
+maxnames=5,
 sorting=none]{biblatex}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -23,6 +24,8 @@ sorting=none]{biblatex}
 \usepackage{hyphenat}
 \usepackage{fontawesome}
 \input{glyphtounicode}
+\usepackage{orcidlink}
+\usepackage{tikz}
 
 %---------- FONT OPTIONS ----------
 % sans-serif
@@ -31,7 +34,7 @@ sorting=none]{biblatex}
 % \usepackage[sfdefault]{noto-sans}
 % \usepackage[default]{sourcesanspro}
 
-% serif
+% serif\
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
 
@@ -66,6 +69,8 @@ sorting=none]{biblatex}
 
 %-------------------------
 % Custom commands
+
+%\tikzset{every picture/.append style={scale=1.4}}
 
 \providecommand\mnras{\rm{MNRAS}}
 
@@ -157,7 +162,8 @@ sorting=none]{biblatex}
     \faAt \hspace{.5pt} \href{mailto:james.garland@mail.utoronto.ca}{james.garland@mail.utoronto.ca}
     $|$
     \faGlobe \hspace{.5pt} \href{https://www.jamesgarland.net}{jamesgarland.net}
-    %$|$
+    $|$
+    \orcidlink{0000-0003-2922-1416}
     \\
     \faMapMarker \hspace{.5pt} {1120 Park Ave., New York, NY 10128, USA}
 \end{center}
